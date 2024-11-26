@@ -9,7 +9,11 @@ export default function Login(){
     return(
         <div>
             <h1> Login here</h1>
-            <button onClick={authenticate}> Login</button>
+            
+            Username : <input type="text" /> <br/>
+            Password : <input type="password" /><br/> <br/> 
+            <button onClick={authenticate}> Login</button> 
+            
         </div>
     );
 }
