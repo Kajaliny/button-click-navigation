@@ -6,8 +6,9 @@ function App(){
         <div className="App">
             <Router>
                 <Routes>
-                    <Route path='/login' element={Login}/>
-                    <Route path='/dash' element={Dashboard}/>
+                    <Route path='/login' element={Login/}/>
+                    <Route path='/dash' element={Dashboard/}/>
+                  
 
                 </Routes>
             </Router>
